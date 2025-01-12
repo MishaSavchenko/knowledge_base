@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "43fb1cc8683b566a",
+        "id": "138c83045129758d",
         "type": "tabs",
         "children": [
           {
-            "id": "146195f6e7794db2",
+            "id": "6c1ae505a76fb4b4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": ""
+                "file": "C++ Review.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: app.json"
+              "icon": "lucide-file",
+              "title": "C++ Review"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "8c40a99b09b9ed15",
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++ Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for C++ Review"
             }
           },
           {
@@ -111,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++ Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from C++ Review"
             }
           },
           {
@@ -136,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "C++ Review.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of C++ Review"
             }
           },
           {
@@ -156,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 226.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,8 +173,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "146195f6e7794db2",
+  "active": "6c1ae505a76fb4b4",
   "lastOpenFiles": [
-    "README.md"
+    "Edge Detection Algorithms.md",
+    "Finite State Machines.md",
+    "Motion Planning.md",
+    "README.md",
+    "ROS 1.md",
+    "Trajectory Optimization .md",
+    "image3.md",
+    "Web.md",
+    "Algorithms.md",
+    "C++ Networking .md",
+    "C++ Review.md",
+    "Databases.md",
+    "Controls.md",
+    "Untitled"
   ]
 }
