@@ -1,4 +1,4 @@
-* [Trajectory Optimization](https://www.youtube.com/watch?v=wlkRYMVUZTs): Set of mathematical techniques to find the ideal or desired behaviour  
+* [Trajectory Optimization](https://www.youtube.com/watch?v=wlkRYMVUZTs): Set of mathematical techniques to find the ideal or desired behavior  
   * Trying to control the input into the system which yield the desired behaviour   
   * Solves an optimal control problem   
   * Closed-loop solution:  

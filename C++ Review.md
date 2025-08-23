@@ -38,23 +38,20 @@ Dynamic memory Allocation
     * May return NULL if the heap is out of space  
     * Shallow vs deep copying   
       * Copying pointer without allocating memory for the copied information   
-  * Free  
-    * Frees memory 
-
-| void free(void \* ptr); |
-| :---- |
-
-    * Memory associated with the stack is automatically removed as soon as the function returns   
-    * Memory on the heap must be explicitly freed   
-    * Only frees the memory block it points to   
-    * Memory Leaks  
-      * Losing all the references to a block of memory while it is still allocated  
-      * Valgrind detects memory leaks   
-    * Double freeing ( trying to free the same black of memory more than once )  
-      * May segfault   
-      * Malloc may crash   
-        * Corrupted bookkeeping structures of the memory allocation library   
-      * Freeing stack memory may segfault  
+* Free  
+	* Frees memory 
+	   ``` void free(void * ptr);```
+		* Memory associated with the stack is automatically removed as soon as the function returns   
+		* Memory on the heap must be explicitly freed   
+		* Only frees the memory block it points to   
+	* Memory Leaks 
+		* Losing all the references to a block of memory while it is still allocated
+		* Valgrind detects memory leaks
+		* Double freeing ( trying to free the same black of memory more than once )  
+		* May segfault   
+	* Malloc may crash   
+		* Corrupted bookkeeping structures of the memory allocation library   
+		* Freeing stack memory may segfault  
   * Realloc  
     * Allocate a new block of memory, copy the contents to the new and free the old one   
     * Void \* realloc(void \* ptr, size\_t size);  

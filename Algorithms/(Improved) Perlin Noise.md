@@ -1,0 +1,18 @@
+[Perlin Noise Algorithm](https://rtouti.github.io/graphics/perlin-noise-algorithm)
+- procedural generation
+- distinction between 
+	- value noise
+	- simplex noise 
+	- classic pelin noise 
+	- improved perlin noise.
+- perlin noise algorithm takes in the dimensions as parameters 
+	- dimension parameters
+	- iterate over the product of the dimensions and call a noise function to generate a map
+- the property of noise function is that if the function is called for adjacent/near by coordinates, the results are close in value 
+- get the input point
+	- identify 4 points on the grid belonging to the point
+	- generate a value using dot product between 2 vectors  
+		- noise generators use pseudo random value
+	- 
+- Perlin noise work of the principle of shared knowledge, by having a central data store where the global points are already defined the algorithm is able to parallelize the process and reach the constraints necessary for generating *continuous* values.
+- The *randomness* of the noise generator comes from shuffling the list of permutations
