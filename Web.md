@@ -1,3 +1,7 @@
+---
+tags:
+  - old_docs
+---
 * Server   
 * Internet Protocol address   
 * Routable address  
