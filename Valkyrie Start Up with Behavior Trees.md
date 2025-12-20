@@ -1,3 +1,8 @@
+---
+tags:
+  - projects
+  - robotics
+---
 Resources: 
 * https://navigation.ros.org/tutorials/docs/using_groot.html
 * https://www.behaviortree.dev/docs/tutorial-basics/tutorial_01_first_tree

@@ -1,3 +1,9 @@
+---
+tags:
+  - robotics
+  - perception
+---
+
 [Mobile Camera Positioning to Optimize the Observability of Human Activity Recognition Tasks ][http://vision.psych.umn.edu/users/schrater/Papers/Bodoretal05.pdf]
 * observability has different definitions depending on the context, what is the context here?
 *  "joint observability of a set of tasks"

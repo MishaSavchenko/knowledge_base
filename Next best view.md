@@ -1,5 +1,10 @@
+---
+tags:
+  - perception
+  - robotics
+---
 
-"sequential planning task where in each step a new measurment of the environmnet is obtaine dand location of the next measurement is determined based on all previous measurements"
+"sequential planning task where in each step a new measurement of the environment is obtained and location of the next measurement is determined based on all previous measurements"
 * potentially useful for manipulation if combined with object localization/classification
 
 [optimal camera placement][https://www2.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-69.pdf]
@@ -19,7 +24,7 @@ local visibility objectives
 a simpler formulation of the problem uses [[Foreshortened Length]] of the feature on the image plane! 
 	
 > what do high fidelity camera hardware simulations look like? whats under the hood? what is considered?
-> 
 
 
-\
+
+

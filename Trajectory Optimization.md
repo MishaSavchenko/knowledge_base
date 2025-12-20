@@ -1,12 +1,19 @@
-* [Trajectory Optimization](https://www.youtube.com/watch?v=wlkRYMVUZTs): Set of mathematical techniques to find the ideal or desired behavior  
-  * Trying to control the input into the system which yield the desired behaviour   
-  * Solves an optimal control problem   
-  * Closed-loop solution:  
-    * Global method and solution   
-    * Always find the solution  
-    * More difficult to compute   
-    * Action to take at every point of the state space  
-    * Primarily used for low dimensional  
+---
+tags:
+  - old_docs
+  - robotics
+---
+[Trajectory Optimization](https://www.youtube.com/watch?v=wlkRYMVUZTs)
+	
+* Set of mathematical techniques to find the ideal or desired behavior  
+	* Trying to control the input into the system which yield the desired behavior   
+	* Solves an optimal control problem   
+	* Closed-loop solution:  
+		* Global method and solution   
+		* Always find the solution  
+		* More difficult to compute   
+		* Action to take at every point of the state space  
+		* Primarily used for low dimensional  
   * Open-loop solution   
     * u \= u(t)  
       * Control as a function of time   

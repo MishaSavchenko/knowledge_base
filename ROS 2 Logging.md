@@ -1,3 +1,9 @@
+---
+tags:
+  - robotics
+  - ros
+  - ros2
+---
 - [Logging in ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Demos/Logging-and-logger-configuration.html)
 - [Logging Concepts](https://docs.ros.org/en/humble/Concepts/Intermediate/About-Logging.html)
 * [rclcpp/logging api](https://docs.ros2.org/latest/api/rclcpp/logging_8hpp.html)
@@ -22,9 +28,5 @@ The rclcpp library has a couple of nifty functions that are not outward advertis
 * RCLCPP_INFO_SKIPFIRST(logger, ...)
 * RCLCPP_INFO_THROTTLE(logger, clock, duration, ...)
 * RCLCPP_INFO_SKIPFIRST_THROTTLE(logger, clock, duration, ...)
-  
-
-
-
 ---
 [[Standard Streams]]

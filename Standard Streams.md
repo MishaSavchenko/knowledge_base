@@ -1,3 +1,7 @@
+---
+tags:
+  - programming
+---
 [Standard Streams](https://en.wikipedia.org/wiki/Standard_streams)
 
 I/O Channels between program and its environment

@@ -6,7 +6,7 @@
 		* [published paper](https://iris.unige.it/bitstream/11567/1035245/1/ROSMonitoring_ICRA2020.pdf)
 	* [[Monitoring Tools]]
 	* and generally reading about verification frameworks
-	* [[Robot Logging]]
+	* [[Robot Logging Characteristics]]
 
 * Open source BD Choreographer 
 	* https://dev.bostondynamics.com/docs/concepts/choreography/choreographer.html

@@ -1,3 +1,10 @@
+---
+tags:
+  - old_docs
+  - cpp
+  - programming
+---
+
 # Networking Programming 
 
 Refs: [Beej’s Guide to Network Programing](https://beej.us/guide/bgnet/)
