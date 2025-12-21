@@ -107,17 +107,16 @@ Loop Tuning
 | [**Cohen–Coon**](https://en.wikipedia.org/wiki/PID_controller#Cohen%E2%80%93Coon_parameters) | Good process models. | Some math; offline; only good for first-order processes |
 | [**Åström-Hägglund**](https://en.wikipedia.org/wiki/PID_controller#Relay_\(%C3%85str%C3%B6m%E2%80%93H%C3%A4gglund\)_method) | Can be used for auto tuning; amplitude is minimum so this method has lowest process upset | The process itself is inherently oscillatory |
 
-    * Manual tunning   
-      * Set Ki and Kd to zero   
-      * Increase Kp until the output of the loop oscillates   
-      * Kp should be set to approx half of that value for a “quarter amplitude deacasy type response (\*)  
-      * Increase Ki until any offset is corrected in sufficient time for the process   
-        * Increasing too much may cause instability   
-      * Increase Kd until the target is reached quickly enough   
-        * Toomuch Kd will cause excessive response and overshoot   
-      * While some systems accept overshoot some systems do not   
-        * In which case an overdqamped closed-loop system is required which will require a Kp setting significantly less than half that of Kp  setting that was causing oscillation   
-      * 
+* Manual tunning   
+  * Set Ki and Kd to zero   
+  * Increase Kp until the output of the loop oscillates   
+  * Kp should be set to approx half of that value for a “quarter amplitude deacay type response (\*)  
+  * Increase Ki until any offset is corrected in sufficient time for the process   
+	* Increasing too much may cause instability   
+  * Increase Kd until the target is reached quickly enough   
+	* Too much Kd will cause excessive response and overshoot   
+  * While some systems accept overshoot some systems do not   
+	* In which case an overdqamped closed-loop system is required which will require a Kp setting significantly less than half that of Kp  setting that was causing oscillation   
 
 | Parameter | Rise time | Overshoot | Settling time | Steady-state error | Stability |
 | :---: | ----- | ----- | ----- | ----- | ----- |
@@ -125,9 +124,7 @@ Loop Tuning
 | **Ki** | Decrease | Increase | Increase | Eliminate | Degrade |
 | **Kd** | Minor change | Decrease | Decrease | No effect in theory | Improve if Kd small |
 
- 
-
-* Ziegler-Nichols Method (\*)  
+* Ziegler-Nichols Method (*)  
   * Ki and Kd are set to zero   
     * Kp is increase until it reaches the ultimate gain Ku   
       * Where the output begins to oscillate   
@@ -139,15 +136,14 @@ Loop Tuning
 | **PI** | 0.45\*Ku | 0.54\*Ku/Tu | — |
 | **PID** | 0.60 \* Ku | 1.2 \* Ku / Tu | 3\*Ku\*Tu/40 |
 
-      *    
-    * Cohen-Coon Parameters  
-      * Based on first-order \+ time delay model   
-      * Tunning parameters were developed to yield a closed-loop response witha decayse ration of ¼  
-      * Small change in these parameters may cause close loop system to become unstable   
-    * Relay (astrom-Hagglund) method  
-      * Relay methods temporarily operates the process using bang-bang control	and mesures the resultant osiclations   
-      * Output is switched between two values of the control variable   
-      * Values must be chose so the process will cross the setpoint   
+* Cohen-Coon Parameters  
+  * Based on first-order \+ time delay model   
+  * Tunning parameters were developed to yield a closed-loop response witha decayse ration of ¼  
+  * Small change in these parameters may cause close loop system to become unstable   
+* Relay (astrom-Hagglund) method  
+  * Relay methods temporarily operates the process using bang-bang control	and mesures the resultant osiclations   
+  * Output is switched between two values of the control variable   
+  * Values must be chose so the process will cross the setpoint   
 * Limitations of PID Control   
   * Do not generally provide optimal control   
   * Fundamental difficulty is the PID control is that it is a feedback control system with constant parameters and no direct knowledge of the process  
@@ -171,8 +167,8 @@ Loop Tuning
     * Derivative term amplifeis hiegher frequency measurement or process noise that can cause large amounts of change in the output   
     * Often helpful to filter the measurements with low pass filter in order to remove higher-frequency noise components 		
 
-Bang Bang Control 
 
+Bang Bang Control 
 # Feed forward Control 
 
 Refs: [wikipedia](https://en.wikipedia.org/wiki/Feed_forward_\(control\)), [BGU](http://www.bgu.ac.il/chem_eng/pages/Courses/oren%20courses/Chapter_9.pdf)

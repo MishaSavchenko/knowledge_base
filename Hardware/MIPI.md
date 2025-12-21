@@ -20,11 +20,10 @@ https://www.e-consystems.com/blog/camera/technology/what-is-a-mipi-camera-how-do
 			1. support for RAW-24 color depth
 		4. Most common
 	3. CSI-3
-		1. high speed, bidirectional protocal for image and video transmission
+		1. high speed, bidirectional protocol for image and video transmission
 * MIPI interface connects image sensor with embedded board to control and process image data
 * Better resolution and frame rate than the older parallel interface camera modules (Digital Video Port) 
 * MIPI vs USB
 	* USB -> at most 5 gigabits per sec, more likely 3.6 gigabits per sec
 	* MIPI -> at most 6 gigabits per sec, more likely 5 gigabits per sec 
-		* makes the proess more efficient and faster than USB
-* 
+		* makes the process more efficient and faster than USB

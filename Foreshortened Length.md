@@ -1,3 +1,8 @@
+---
+tags:
+  - vision
+---
+
 [https://www.ri.cmu.edu/pub_files/pub2/maimone_mark_1995_2/maimone_mark_1995_2.pdf]
 
 * occurs when an image of the surface is viewed at a sharp angle

@@ -1,5 +1,3 @@
-
-
 * Extension of dRRT 
 	* dRRT is a multi-robot motion planner
 * informed, asymptotically-optimal
@@ -12,7 +10,7 @@
 * dRRT
 	* managed to achieve completeness (and efficiency) in finding paths in high dimensional composite space 
 	* leveraged an "implicit representation of the composite space"
-		* "implicit representation" is a graph which corresponds to the tensor product of roadmaps explicityl constructed for each robot.
+		* "implicit representation" is a graph which corresponds to the tensor product of roadmaps explicitly constructed for each robot.
 	* does not provide any path quality guarantees
 * 
 

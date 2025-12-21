@@ -19,7 +19,7 @@ LQR
 * Hybrid system can be described by modes, guards, and resets
 	* modes: sets  of continuous dynamics
 		* can have multiple guards
-	* guards: continuous functions whose [[zero-level set]] describes the conditions which trigger and event
+	* guards: continuous functions whose [[Zero-Level Set]] describes the conditions which trigger and event
 		* associated to particular mode
 		* at most one reset 
 		* "witness functions"

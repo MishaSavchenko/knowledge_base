@@ -2,6 +2,7 @@
 tags:
   - perception
   - robotics
+  - vision
 ---
 
 "sequential planning task where in each step a new measurement of the environment is obtained and location of the next measurement is determined based on all previous measurements"
